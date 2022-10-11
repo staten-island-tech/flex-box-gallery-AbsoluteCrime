@@ -1,30 +1,31 @@
-html, 
-body, 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-size: 62.5%; /* Normally 100% is 16px we want the size to be 10px so we do 62.5% */
+html,
+body,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%; /* Normally 100% is 16px we want the size to be 10px so we do 62.5% */
 }
-.parent{
-    font-size: 30px;
-    display: flex;
-    justify-content :space-between;
-    align-items: center;
+.parent {
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
-.child{
-    width: 10%;
+.child {
+  width: 30vw;
+  height: 30vh;
+  border: 3px solid;
+  margin: 1em;;
 }
-.child-1{
-    border: 3px solid green;
-    height: 300px;
+.child-1 {
+  
 }
-.child-2{
-    border: 3px solid yellow;
-    height: 500px;
+.child-2 {
+  
 }
-.child-3{
-    border: 3px solid blue;
-    height: 600px;
-    flex-grow: 5;
+.child-3 {
+  
 }
