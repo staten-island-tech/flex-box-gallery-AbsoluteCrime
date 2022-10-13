@@ -7,7 +7,7 @@ body,
   font-size: 62.5%; /* Normally 100% is 16px we want the size to be 10px so we do 62.5% */
 }
 .parent {
-  font-size: 30px;
+  font-size: 6em;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -15,13 +15,22 @@ body,
   align-items: center;
 }
 .child {
-  width: 30vw;
-  height: 30vh;
+  width: 13em;
+  height: 19em;
   border: 3px solid;
-  margin: 1em;;
+  margin: 4em;
+  box-shadow: 0.6em 0.3em 0.3em black;
 }
-.child-1 {
-  
+.image {
+  width: 14em;
+  display: block;
+  margin: auto;
+}
+.title {
+  font-size: 1em;
+  text-align: center;
+  position: relative;
+  top: 1em;
 }
 .child-2 {
   
