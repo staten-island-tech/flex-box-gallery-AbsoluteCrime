@@ -5,6 +5,11 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%; /* Normally 100% is 16px we want the size to be 10px so we do 62.5% */
+  background-color: #f2eceb;
+}
+.heading {
+  position: relative;
+  top: 1em;
 }
 .parent {
   font-size: 6em;
@@ -17,9 +22,11 @@ body,
 .child {
   width: 13em;
   height: 19em;
-  border: 3px solid;
+  border: 3px solid #757575;
   margin: 4em;
-  box-shadow: 0.6em 0.3em 0.3em black;
+  box-shadow: 0.6em 0.3em 0.3em #757575;
+  font-family: 'B612 Mono', monospace;
+  color: #0182e0
 }
 .image {
   width: 14em;
