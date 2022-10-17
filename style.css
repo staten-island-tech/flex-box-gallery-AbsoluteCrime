@@ -32,6 +32,8 @@ body,
   width: 14em;
   display: block;
   margin: auto;
+  position: relative;
+  top: 1em;
 }
 .title {
   font-size: 1em;
@@ -39,9 +41,11 @@ body,
   position: relative;
   top: 1em;
 }
-.child-2 {
-  
+.child-2.title {
+  position: relative;
+  top: 11em;
 }
-.child-3 {
-  
+.child-4 {
+  position: relative;
+  top: 0em;
 }
