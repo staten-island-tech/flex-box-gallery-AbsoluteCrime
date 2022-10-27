@@ -10,6 +10,7 @@ body,
 .heading {
   position: relative;
   top: 1em;
+  text-align: center;
 }
 .heading:hover {
   text-decoration: underline;
@@ -37,7 +38,7 @@ body,
   border-color: #242222;
   box-shadow: 1.2em 0.6em 0.6em #757575;
   background-color: #d6d1d0;
-  animation: rotation infinite 2s;
+  animation: 2s linear 0s infinite test;
 }
 .child:hover .title {
   background-color: #d6d1d0;
@@ -64,8 +65,4 @@ body,
 .child-4 {
   position: relative;
   top: 0em;
-}
-@keyframes rotation {
-  50% {transform: rotate(-2deg), scale(1.1);}
-  100% {transform: rotate(2deg), scale(1.1);}
 }
