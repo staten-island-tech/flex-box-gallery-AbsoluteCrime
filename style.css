@@ -66,3 +66,26 @@ body,
   position: relative;
   top: 0em;
 }
+.about {
+  position: relative;
+  top: 2em;
+  left: 66em;
+  font-size: 4em;
+  border: solid #0182e0;
+  display: inline-block;
+  padding: 1em;
+}
+.about:hover {
+  animation: fillin 0.5s linear infinite alternate;
+  transition: 0.3s;
+  background-color: skyblue;
+}
+
+@keyframes fillin {
+  from {transform: scale(1);
+  }
+
+  to {
+    transform: scale(0.9);
+  }
+}
