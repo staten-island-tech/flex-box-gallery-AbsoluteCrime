@@ -38,7 +38,6 @@ body,
   border-color: #242222;
   box-shadow: 1.2em 0.6em 0.6em #757575;
   background-color: #d6d1d0;
-  animation: 2s linear 0s infinite test;
 }
 .child:hover .title {
   background-color: #d6d1d0;
@@ -69,14 +68,15 @@ body,
 .about {
   position: relative;
   top: 2em;
-  left: 66em;
+  display: flex;
   font-size: 4em;
   border: solid #0182e0;
-  display: inline-block;
   padding: 1em;
+  width: 7.5em;
+  margin: auto;
 }
 .about:hover {
-  animation: fillin 0.5s linear infinite alternate;
+  animation: fillin 0.5s linear normal forwards;
   transition: 0.3s;
   background-color: skyblue;
 }
@@ -89,3 +89,5 @@ body,
     transform: scale(0.9);
   }
 }
+
+@media (max-width: 500px) {
